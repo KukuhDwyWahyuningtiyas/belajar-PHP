@@ -1,0 +1,30 @@
+/* Memberikan efek gradasi pada background halaman */
+body {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Modifikasi komponen Card Bootstrap agar terlihat lebih modern */
+.card-custom {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Kustomisasi struk belanja agar mirip kertas struk asli */
+.struk-belanja {
+    background-color: #fffde7;
+    border-left: 4px dashed #f1c40f;
+    border-radius: 4px;
+}
+
+.text-brand {
+    font-weight: 800;
+    letter-spacing: 1px;
+}
